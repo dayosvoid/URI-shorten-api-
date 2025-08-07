@@ -3,7 +3,7 @@ import Heroimg from "../assets/images/illustration-working.svg"
 
 const Hero = () => {
   return (
-    <div className='pb-8 md:flex flex-row-reverse justify-center relative md:mt-4 md:mb-30'>
+    <div className='pb-8 md:flex flex-row-reverse justify-center relative md:mt-4 md:mb-35'>
          {/* hero section */}
             {/* image */}
             <div className='w-[100%] pl-5.5 overflow-hidden md:hidden'><img src={Heroimg} alt="image" className='min-w-[500px]'/></div>

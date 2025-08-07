@@ -107,9 +107,9 @@ const Input = () => {
 
 
   return (
-    <div className='pt-8 bg-[hsl(0,0%,75%)] mt-25'>
-        <div className='container mx-auto w-11/12 space-y-10 py-10  relative'>
-            <div className='input px-5 py-7  md:py-10 bg-[hsl(257,27%,26%)] rounded-md absolute top-[-9%] md:top-[-11%] left-[50%] -translate-x-1/2 w-full' >
+    <div className=' bg-[hsl(0,0%,75%)] mt-25'>
+        <div className='container mx-auto w-11/12 space-y-10 pb-10 relative '>
+            <div className='input px-5 py-7  md:py-10 bg-[hsl(257,27%,26%)] rounded-md relative top-[-90px] md:top-[-60px] left-[50%] -translate-x-1/2 w-full' >
             {/* the link form */}
                 <form action="post" onSubmit={handleSubmit} className='flex md:flex-row flex-col gap-8 md:gap-3 relative'>
                     <input type="text" placeholder='Shorten a link here..' style={{color:error?'red':'black'}} className={` ${error ? 'border-red-500' : 'border-green-200'} border-2 py-3 pl-3 text-gray-800 text-[12px] md:text-[18px] bg-white rounded-md md:w-[75%] outline-none focus:text-black`} value={input} onChange={(e)=>setInput(e.target.value)} />
@@ -118,11 +118,12 @@ const Input = () => {
                 </form>
            </div>
 
+        <div className='relative top-[-100px] md:top-[-70px]  left-[50%] -translate-x-1/2'>
             {/*mapped through fetched shorten links from linkHistory */}
             {
                 linkHistory && linkHistory.map((link)=>(
-                    <div key={link.id} className='px-3 py-1 flex md:flex-row flex-col bg-white mt-10 md:mt-8 md:justify-between md:text-balance md:items-center rounded-md'>
-                    <p className='px-3 py-2 md:w-[70%] overflow-hidden'>{link.original}</p>
+                    <div key={link.id} className='px-3 py-1 flex md:flex-row flex-col bg-white mt-10 md:mt-5 md:justify-between md:text-balance md:items-center rounded-md'>
+                    <p className='px-3 py-2 w-full md:w-[70%] overflow-hidden text-cente md:text-start'>{link.original}</p>
                     {/* the thin horizontal line on mobile */}
                     <div className='border border-gray-500 w-full md:hidden'></div>
                     <div className='flex flex-col py-2 md:flex-row items-center'>
@@ -136,10 +137,13 @@ const Input = () => {
             }
             
 
+        </div>
+
+
             {/* Advanced stats section */}
             <div className='pb-20'>
                 {/* header/paragraphy*/}
-                <div className='py-12 text-center flex flex-center flex-col items-center justify-center gap-4 md:gap-2'> 
+                <div className='pt-4 pb-10 text-center flex flex-center flex-col items-center justify-center gap-4 md:gap-2'> 
                     <h2 className='text-[hsl(260,8%,14%)] font-semibold text-[25px] text-center'>Advanced Statistics</h2>
                     <p className='text-gray-500 text-balanced px-2 md:px-20 text-[16px] sm:text-[20px]'>Track how your links are performing across the web with our 
                     advanced statistics dashboard.</p>

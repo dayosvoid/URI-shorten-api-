@@ -43,10 +43,10 @@ const Footer = () => {
             </div>
             {/* social */}
             <div className='flex gap-5'>
-                <span><img src={facebook} alt="facebook" className='w-[30px] hover:text-[hsla(180,66%,67%,1.00)] cursor-pointer ' /></span>
-                <span><img src={twitter} alt="twitter" className='w-[30px] hover:text-[hsla(180,66%,67%,1.00)] cursor-pointer' /></span>
-                <span><img src={pinterest} alt="pinterest" className='w-[30px] hover:text-[hsla(180,66%,67%,1.00)] cursor-pointer' /></span>
-                <span><img src={instagram} alt="instagram" className='w-[30px] hover:text-[hsla(180,66%,67%,1.00)] cursor-pointer' /></span>
+                <span><img src={facebook} alt="facebook" className='w-auto  cursor-pointer ' /></span>
+                <span><img src={twitter} alt="twitter" className='w-auto cursor-pointer' /></span>
+                <span><img src={pinterest} alt="pinterest" className='w-auto  cursor-pointer' /></span>
+                <span><img src={instagram} alt="instagram" className='w-auto cursor-pointer' /></span>
             </div>
         </div>
         
