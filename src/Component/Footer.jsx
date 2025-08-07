@@ -43,7 +43,7 @@ const Footer = () => {
             </div>
             {/* social */}
             <div className='flex gap-5'>
-                <span><img src={facebook} alt="facebook" className='w-auto md:w-[70px] cursor-pointer ' /></span>
+                <span><img src={facebook} alt="facebook" className='w-auto md:w-[110px] cursor-pointer ' /></span>
                 <span><img src={twitter} alt="twitter" className='w-auto cursor-pointer' /></span>
                 <span><img src={pinterest} alt="pinterest" className='w-auto  cursor-pointer' /></span>
                 <span><img src={instagram} alt="instagram" className='w-auto cursor-pointer' /></span>
