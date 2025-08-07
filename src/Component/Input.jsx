@@ -111,7 +111,7 @@ const Input = () => {
         <div className='container mx-auto w-11/12 space-y-10 pb-10 relative '>
             <div className='input px-5 py-7  md:py-10 bg-[hsl(257,27%,26%)] rounded-md relative top-[-90px] md:top-[-60px] left-[50%] -translate-x-1/2 w-full' >
             {/* the link form */}
-                <form action="post" onSubmit={handleSubmit} className='flex md:flex-row flex-col gap-8 md:gap-3 relative'>
+                <form action="post" onSubmit={handleSubmit} className='input flex md:flex-row flex-col gap-8 md:gap-3 relative'>
                     <input type="text" placeholder='Shorten a link here..' className={` ${error ? 'border-red-500' : 'border-green-200'} ${error ? 'placeholder-red-500' : 'placeholder-gray-400'} border-2 py-3 pl-3 text-gray-800 text-[12px] md:text-[18px] bg-white rounded-md md:w-[75%] outline-none focus:text-black`} value={input} onChange={(e)=>setInput(e.target.value)} />
                     <p className='absolute font-semibold text-red-500 top-[45px] md:top-[55px] left-0 italic md:text-[16px] text-[14px] '>{error}</p>
                     <button className={`bg-[hsl(180,66%,49%)] text-[18px] py-2 md:py-3 text-white font-semibold rounded-md md:w-[25%] hover:bg-[hsla(180,66%,67%,1.00)] cursor-pointer hover:text-[18.5px] `} onClick={handleSubmit}>Shorten it!</button>
