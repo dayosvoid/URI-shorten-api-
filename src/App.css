@@ -7,19 +7,19 @@
 
 .input{
   background-image: url(./assets/images/bg-shorten-mobile.svg);
-  background-position: 110% -400%;
+  background-position: 110% 600%;
   background-repeat: no-repeat;
-  /* background-size: 100%; */
+  background-size: 100%;
   z-index: 2;
 }
 
-.input{
+/* .input{
   background-image: url(./assets/images/bg-shorten-mobile.svg);
   background-position: 110% -400%;
   background-repeat: no-repeat;
-  /* background-size: 100%; */
+  background-size: 100%;
   z-index: 2;
-}
+} */
 
 .boost-section{
   background-image: url(../src/assets/images/bg-boost-mobile.svg);
