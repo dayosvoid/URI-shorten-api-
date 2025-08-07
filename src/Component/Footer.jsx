@@ -17,8 +17,8 @@ const Footer = () => {
             <div className='space-y-4' >
                 <h2 className='text-[hsl(0,0%,75%)] font-semibold'>Features</h2>
                 <ul className='text-[14px] text-[14px] space-y-1.5'>
-                    <li className='hover:text-[hsla(180,66%,67%,1.00)] cursor-pointer'>Link shorten</li>
-                    <li className='hover:text-[hsla(180,66%,67%,1.00)] cursor-pointer'>Branded Links</li>
+                    <li className='hover:text-[hsla(180,66%,67%,1.00)] text-nowrap cursor-pointer'>Link shorten</li>
+                    <li className='hover:text-[hsla(180,66%,67%,1.00)] text-nowrap cursor-pointer'>Branded Links</li>
                     <li className='hover:text-[hsla(180,66%,67%,1.00)] cursor-pointer'>Analytics</li>
                 </ul>
             </div>
@@ -43,10 +43,10 @@ const Footer = () => {
             </div>
             {/* social */}
             <div className='flex gap-5'>
-                <span><img src={facebook} alt="facebook" className='w-auto  cursor-pointer ' /></span>
-                <span><img src={twitter} alt="twitter" className='w-auto cursor-pointer' /></span>
-                <span><img src={pinterest} alt="pinterest" className='w-auto  cursor-pointer' /></span>
-                <span><img src={instagram} alt="instagram" className='w-auto cursor-pointer' /></span>
+                <span><img src={facebook} alt="facebook" className='w-auto w-[130px] cursor-pointer ' /></span>
+                <span><img src={twitter} alt="twitter" className='w-auto  w-[130px] cursor-pointer' /></span>
+                <span><img src={pinterest} alt="pinterest" className='w-auto  w-[130px]  cursor-pointer' /></span>
+                <span><img src={instagram} alt="instagram" className='w-auto  w-[130px] cursor-pointer' /></span>
             </div>
         </div>
         
