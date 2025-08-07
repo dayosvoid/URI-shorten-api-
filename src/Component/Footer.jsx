@@ -12,13 +12,13 @@ const Footer = () => {
       <footer className='container mx-auto w-11/12 text-center md:text-start flex flex-col md:flex-row items-center md:items-start justify-center md:justify-between gap-8 text-[hsl(257,7%,63%)]'>
         <h2 ><img src={logo} alt="" className='invert'/></h2>
 
-        <div className='flex flex-col md:flex-row md:items-start justify-center gap-10 md:gap-12 md:w-[60%]'>
+        <div className='flex flex-col md:flex-row md:items-start justify-center md:justify-end gap-10 md:gap-12 md:w-[100%]'>
                     {/* feature */}
             <div className='space-y-4' >
                 <h2 className='text-[hsl(0,0%,75%)] font-semibold'>Features</h2>
                 <ul className='text-[14px] text-[14px] space-y-1.5'>
-                    <li className='hover:text-[hsla(180,66%,67%,1.00)] cursor-pointer'>Link shorten</li>
-                    <li className='hover:text-[hsla(180,66%,67%,1.00)] cursor-pointer'>Branded Links</li>
+                    <li className='hover:text-[hsla(180,66%,67%,1.00)] text-nowrap cursor-pointer'>Link shorten</li>
+                    <li className='hover:text-[hsla(180,66%,67%,1.00)] text-nowrap cursor-pointer'>Branded Links</li>
                     <li className='hover:text-[hsla(180,66%,67%,1.00)] cursor-pointer'>Analytics</li>
                 </ul>
             </div>
@@ -43,10 +43,10 @@ const Footer = () => {
             </div>
             {/* social */}
             <div className='flex gap-5'>
-                <span><img src={facebook} alt="facebook" className='w-auto md:w-[110px] cursor-pointer ' /></span>
-                <span><img src={twitter} alt="twitter" className='w-auto cursor-pointer' /></span>
-                <span><img src={pinterest} alt="pinterest" className='w-auto  cursor-pointer' /></span>
-                <span><img src={instagram} alt="instagram" className='w-auto cursor-pointer' /></span>
+                <span><img src={facebook} alt="facebook" className='w-auto md:min-w-[25px] cursor-pointer ' /></span>
+                <span><img src={twitter} alt="twitter" className='w-auto md:min-w-[25px] cursor-pointer' /></span>
+                <span><img src={pinterest} alt="pinterest" className='w-auto md:min-w-[25px] cursor-pointer' /></span>
+                <span><img src={instagram} alt="instagram" className='w-auto md:min-w-[25px] cursor-pointer' /></span>
             </div>
         </div>
         
