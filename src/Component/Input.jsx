@@ -127,7 +127,7 @@ const Input = () => {
                     {/* the thin horizontal line on mobile */}
                     <div className='border border-gray-500 w-full md:hidden'></div>
                     <div className='flex flex-col py-2 md:flex-row items-center'>
-                        <p className='px-3 py-1 text-[hsl(180,66%,49%)] font-semibold text-[16px]'>{link.shortened}</p>
+                        <p className='px-3 w-full py-1 text-[hsl(180,66%,49%)] font-semibold text-[16px]'>{link.shortened}</p>
                     <button style={{background:copy == link.id ?'hsl(257,27%,26%)':'hsl(180,66%,49%)'}} className=' text-white w-full p-2 md:px-8 font-semibold bg-[hsl(180,66%,49%)] rounded-md hover:bg-[hsl(180,66%,77%)] cursor-pointer' onClick={()=>handleCopy(link.id, link.shortened)}>{copy===link.id?'Copied!':'copy'}</button>
                     </div>
                 </div>
