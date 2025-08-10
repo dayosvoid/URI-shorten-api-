@@ -10,43 +10,43 @@ const Footer = () => {
   return (
     <div className='bg-[hsl(260,8%,14%)] py-15 '>
       <footer className='container mx-auto w-11/12 text-center md:text-start flex flex-col md:flex-row items-center md:items-start justify-center md:justify-between gap-8 text-[hsl(257,7%,63%)]'>
-        <h2 ><img src={logo} alt="" className='invert'/></h2>
+        <h2 ><img src={logo} alt="" className='invert cursor-not-allowed'/></h2>
 
         <div className='flex flex-col md:flex-row md:items-start justify-center md:justify-end gap-10 md:gap-12 md:w-[100%]'>
                     {/* feature */}
             <div className='space-y-4' >
                 <h2 className='text-[hsl(0,0%,75%)] font-semibold'>Features</h2>
                 <ul className='text-[14px] text-[14px] space-y-1.5'>
-                    <li className='hover:text-[hsla(180,66%,67%,1.00)] text-nowrap cursor-pointer'>Link shorten</li>
-                    <li className='hover:text-[hsla(180,66%,67%,1.00)] text-nowrap cursor-pointer'>Branded Links</li>
-                    <li className='hover:text-[hsla(180,66%,67%,1.00)] cursor-pointer'>Analytics</li>
+                    <li className='hover:text-[hsla(180,66%,67%,1.00)] text-nowrap cursor-not-allowed'>Link shorten</li>
+                    <li className='hover:text-[hsla(180,66%,67%,1.00)] text-nowrap cursor-not-allowed'>Branded Links</li>
+                    <li className='hover:text-[hsla(180,66%,67%,1.00)] cursor-not-allowed'>Analytics</li>
                 </ul>
             </div>
             {/* resources */}
             <div className='space-y-4'>
                 <h2 className='text-[hsl(0,0%,75%)] font-semibold'>Resources</h2>
                 <ul className='text-[14px] space-y-1.5'>
-                    <li className='hover:text-[hsla(180,66%,67%,1.00)] cursor-pointer'>blog</li>
-                    <li className='hover:text-[hsla(180,66%,67%,1.00)] cursor-pointer'>Developers</li>
-                    <li className='hover:text-[hsla(180,66%,67%,1.00)] cursor-pointer'>Support</li>
+                    <li className='hover:text-[hsla(180,66%,67%,1.00)] cursor-not-allowed'>blog</li>
+                    <li className='hover:text-[hsla(180,66%,67%,1.00)] cursor-not-allowed'>Developers</li>
+                    <li className='hover:text-[hsla(180,66%,67%,1.00)] cursor-not-allowed'>Support</li>
                 </ul>
             </div>
             {/* company */}
             <div className='space-y-4'>
                 <h2 className='text-[hsl(0,0%,75%)] font-semibold'>Company</h2>
                 <ul className='text-[14px] text-[14px] space-y-1.5'>
-                    <li className='hover:text-[hsla(180,66%,67%,1.00)] cursor-pointer'>About</li>
-                    <li className='hover:text-[hsla(180,66%,67%,1.00)] cursor-pointer'>Our Teams</li>
-                    <li className='hover:text-[hsla(180,66%,67%,1.00)] cursor-pointer'>Careers</li>
-                    <li className='hover:text-[hsla(180,66%,67%,1.00)] cursor-pointer'>Contacts</li>
+                    <li className='hover:text-[hsla(180,66%,67%,1.00)] cursor-not-allowed'>About</li>
+                    <li className='hover:text-[hsla(180,66%,67%,1.00)] cursor-not-allowed'>Our Teams</li>
+                    <li className='hover:text-[hsla(180,66%,67%,1.00)] cursor-not-allowed'>Careers</li>
+                    <li className='hover:text-[hsla(180,66%,67%,1.00)] cursor-not-allowed'>Contacts</li>
                 </ul>
             </div>
             {/* social */}
-            <div className='flex gap-5'>
-                <span><img src={facebook} alt="facebook" className='w-auto md:min-w-[25px] cursor-pointer ' /></span>
-                <span><img src={twitter} alt="twitter" className='w-auto md:min-w-[25px] cursor-pointer' /></span>
-                <span><img src={pinterest} alt="pinterest" className='w-auto md:min-w-[25px] cursor-pointer' /></span>
-                <span><img src={instagram} alt="instagram" className='w-auto md:min-w-[25px] cursor-pointer' /></span>
+            <div className='flex md:items-center gap-5'>
+                <span><img src={facebook} alt="facebook" className='w-auto md:min-w-[25px] cursor-not-allowed ' /></span>
+                <span><img src={twitter} alt="twitter" className='w-auto md:min-w-[25px] cursor-not-allowed' /></span>
+                <span><img src={pinterest} alt="pinterest" className='w-auto md:min-w-[25px] cursor-not-allowed' /></span>
+                <span><img src={instagram} alt="instagram" className='w-auto md:min-w-[25px] cursor-not-allowed' /></span>
             </div>
         </div>
         

@@ -17,7 +17,7 @@ const Hero = () => {
                     on how your links are performing.
                 </p>
                 
-                <button className='bg-[hsl(180,66%,49%)] py-2 px-10 rounded-full text-[20px] hover:text-[20.5px] text-white font-semibold md:self-start hover:bg-[hsla(180,66%,67%,1.00)] cursor-pointer '>
+                <button className='bg-[hsl(180,66%,49%)] py-2 px-10 rounded-full text-[20px] hover:text-[20.5px] text-white font-semibold md:self-start hover:bg-[hsla(180,66%,67%,1.00)]  cursor-not-allowed'>
                     Get Started
                 </button>
             </div>

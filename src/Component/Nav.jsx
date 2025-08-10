@@ -12,12 +12,12 @@ const Nav = () => {
         <nav className='flex justify-between py-4'>
             {/* logo (left section) */}
             <div className='flex items-center gap-5'>
-                <span ><img src={logo} alt="logo" /></span>
+                <span ><img src={logo} alt="logo" className='cursor-not-allowed'/></span>
 
                 <ul className='hidden md:flex space-x-4 flex font-semibold text-gray-400 items-center' >
-                    <li className='hover:text-black cursor-pointer'>Features</li>
-                    <li className='hover:text-black cursor-pointer'>Pricing</li>
-                    <li className='hover:text-black cursor-pointer'>Resources</li>
+                    <li className='hover:text-black cursor-not-allowed'>Features</li>
+                    <li className='hover:text-black cursor-not-allowed'>Pricing</li>
+                    <li className='hover:text-black cursor-not-allowed'>Resources</li>
                 </ul>
             </div>
 
@@ -27,8 +27,8 @@ const Nav = () => {
                 
                 {/*(login/ sign up)  */}
                 <div className='space-x-3 font-semibold hidden  md:flex'>
-                    <button className='text-gray-400 hover:text-black cursor-pointer'>Login</button>
-                    <button className='bg-[hsl(180,66%,49%)] hover:bg-[hsla(180,66%,67%,1.00)] cursor-pointer py-1 px-4 rounded-full text-white font-semibold'>Sign Up</button>
+                    <button  disabled={true} className='text-gray-400 hover:text-black  cursor-not-allowed '>Login</button>
+                    <button  disabled={true} className='bg-[hsl(180,66%,49%)] hover:bg-[hsla(180,66%,67%,1.00)] cursor-not-allowed py-1 px-4 rounded-full text-white font-semibold'>Sign Up</button>
                 </div>
             </div>
 
@@ -38,15 +38,15 @@ const Nav = () => {
             menu && 
             <div className='flex flex-col gap-8 text-white bg-[hsl(257,27%,26%)] text-semibold text-center w-full py-10 px-5 absolute rounded-md md:hidden z-2'>
                 <ul className='space-y-4' >
-                    <li >Features</li>
-                    <li>Pricing</li>
-                    <li>Resources</li>
+                    <li className='cursor-not-allowed'>Features</li>
+                    <li className='cursor-not-allowed'>Pricing</li>
+                    <li className='cursor-not-allowed'>Resources</li>
                 </ul>
                {/* the thin horizontal line  in the dropdown menu  */}
                <div className='w-full border border-gray-600 '></div>
                <div className='flex flex-col gap-4 '>
-                <button >Login</button>
-                <button className='bg-[hsl(180,66%,49%)] py-2 rounded-full'>Sign up</button>
+                <button disabled className='text-gray-400 hover:text-black cursor-pointer cursor-not-allowed' >Login</button>
+                <button  disabled={true} className='bg-[hsl(180,66%,49%)] py-2 rounded-full cursor-not-allowed'>Sign up</button>
                </div>
             </div>
         }
