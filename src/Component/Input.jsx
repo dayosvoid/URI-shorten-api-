@@ -220,7 +220,7 @@ const Input = () => {
                                 <div className='flex flex-col items-center gap-3 bg-white text-center px-5 pt-12 py-10 rounded-sm text-balance md:pl-4 md:px-2 md:text-start relative'>
                                     <span className='absolute top-[-30px] md:top-[-40px] md:left-[30px]'><img src={brandimg} alt="" className='bg-[hsl(257,27%,26%)] p-4 rounded-full size-18 md:size-20' /></span>
                                     <h2 className='text-[hsl(257,27%,26%)] md:text-[20] text-[15px] font-semibold md:self-start'>Brand Recognition</h2>
-                                    <p className='text-gray-500 text-[15px] md:text-[18px]'>Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.
+                                    <p className='text-gray-500 text-[15px] md:text-[18px]  text-balance md:text-start'>Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.
                                     </p>
                                 </div>
 
@@ -229,7 +229,7 @@ const Input = () => {
                                 <div className='flex flex-col items-center gap-3 bg-white text-center px-5 pt-12 py-10 rounded-sm text-balance md:pl-4 md:px-2 md:text-start relative md:top-8'>
                                     <span className='absolute top-[-30px] md:top-[-40px] md:left-[30px]'><img src={detailedimg} alt="" className='bg-[hsl(257,27%,26%)] p-4 rounded-full size-18 md:size-20' /></span>
                                     <h2 className='text-[hsl(257,27%,26%)] md:text-[20] text-[15px] font-semibold md:self-start'>Detailed Records</h2>
-                                    <p className='text-gray-500  text-[15px] md:text-[18px]'>Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.
+                                    <p className='text-gray-500  text-[15px] md:text-[18px]  text-balance md:text-start'>Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.
                                     </p>
                                 </div>
 
@@ -238,7 +238,7 @@ const Input = () => {
                                 <div className='flex flex-col items-center gap-3 bg-white text-center px-5 pt-12 py-10 rounded-sm text-balance md:pl-4 md:px-2 md:text-start relative md:top-15'>
                                     <span className='absolute top-[-30px] md:top-[-40px] md:left-[30px]'><img src={fullyimg} alt="" className='bg-[hsl(257,27%,26%)] p-4 rounded-full size-18 md:size-20' /></span>
                                     <h2 className='text-[hsl(257,27%,26%)] text-[15px] md:text-[20] font-semibold md:self-start'>Fully Customizable</h2>
-                                    <p className='text-gray-500 text-[15px] md:text-[18px]'>Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.
+                                    <p className='text-gray-500 text-[15px] md:text-[18px] text-balance md:text-start'>Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.
                                     </p>
                                 </div>
                             </div>
